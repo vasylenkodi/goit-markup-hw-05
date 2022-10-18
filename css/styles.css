@@ -410,6 +410,8 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--icons-color);
+
+  transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
 }
 
 .team-card .social-list {
