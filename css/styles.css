@@ -585,6 +585,17 @@ body {
   background-color: var(--secondary-background-color);
 
   padding: 6px 22px;
+
+  transition: background-color 250ms var(--timing-function), 
+  color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
+}
+
+.gallery .button:hover,
+.gallery .button:focus {
+  background-color: var(--accent-color);
+  color: var(--page-white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* галерея карток */
@@ -611,14 +622,6 @@ body {
   border-right: 1px solid var(--gallery-border-color);
   border-bottom: 1px solid var(--gallery-border-color);
   border-left: 1px solid var(--gallery-border-color);
-}
-
-.gallery .button:hover,
-.gallery .button:focus {
-  background-color: var(--accent-color);
-  color: var(--page-white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .gallery-subtitle {
