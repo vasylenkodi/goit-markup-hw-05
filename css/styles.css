@@ -511,6 +511,8 @@ body {
 .adress .link {
   color: var(--page-white-color);
   line-height: 1.71;
+
+  transition: color 250ms var(--timing-function);
 }
 
 .adress .link:hover,
